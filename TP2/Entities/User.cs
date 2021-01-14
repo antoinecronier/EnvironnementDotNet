@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP_linq.Entities
+namespace TP2.Entities
 {
-    public class User
+    public class User : EntityBase
     {
         public long? Id { get; set; }
         public string Firstname { get; set; }

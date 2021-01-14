@@ -1,6 +1,6 @@
-﻿namespace TP_linq.Entities
+﻿namespace TP2.Entities
 {
-    public class Car
+    public class Car : EntityBase
     {
         public long? Id { get; set; }
         public CarType Type { get; set; }

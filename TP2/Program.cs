@@ -3,15 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TP_linq.Entities;
-using TP_linq.Utils;
+using TP2.Entities;
+using TP2.Utils;
 
-namespace TP_linq
+namespace TP2
 {
     public class Program
     {
         public static void Main(string[] args)
         {
+            foreach (var item in FakeDb.Instance.Users)
+            {
+                Console.WriteLine(item);
+            }
+
             #region Q1
             Console.WriteLine("Question 1");
             // Afficher le nombre de personne s'appelant Dupond ou Dupont.

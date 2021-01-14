@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace TP_linq.Entities
+namespace TP2.Entities
 {
-    public class CarType
+    public class CarType : EntityBase
     {
         public long? Id { get; set; }
         public string Name { get; set; }
